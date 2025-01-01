@@ -38,23 +38,23 @@ const searchWeather = () => {
 
       switch (json.weather[0].main) {
         case "Clear":
-          image.src = "images/clear.png";
+          image.src = "public/clear.png";
           break;
 
         case "Rain":
-          image.src = "images/rain.png";
+          image.src = "public/rain.png";
           break;
 
         case "Snow":
-          image.src = "images/snow.png";
+          image.src = "public/snow.png";
           break;
 
         case "Clouds":
-          image.src = "images/cloud.png";
+          image.src = "public/cloud.png";
           break;
 
         case "Haze":
-          image.src = "images/mist.png";
+          image.src = "public/mist.png";
           break;
 
         default:
